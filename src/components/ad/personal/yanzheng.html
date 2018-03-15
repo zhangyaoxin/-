@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js" charset="utf-8"></script>
+    <style media="screen">
+    .code_wrap{
+      width: 95%;
+      height: 10rem;
+      margin: 0 auto;
+    }
+    .code_wrap ul{
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 0.7rem;
+    }
+    .code_wrap ul li{
+      width: 85%;
+      height: 1.2rem;
+      margin: 0 auto;
+      border-bottom: 0.05rem solid #f3f3f3;
+      margin-bottom: 0.5rem;
+      display: flex;
+      align-items: center;
+    }
+    .code_wrap ul li img{
+      width: 0.4rem;
+      height: 0.4rem;
+      margin-left: 0.2rem;
+      margin-right: 0.2rem;
+      cursor: pointer;
+    }
+    .code_wrap ul li input{
+      border: none;
+      color: gray;
+    }
+    .code_wrap ul li p{
+      font-size: 0.35rem;
+      color: #2496f0;
+      cursor: pointer;
+    }
+    .sureBtn{
+      width: 70%;
+      height: 1rem;
+      margin: 0 auto;
+      margin-top: 1rem;
+      border-radius: 0.5rem;
+      font-size: 0.4rem;
+      text-align: center;
+      line-height: 1rem;
+      color: #fff;
+      background-color: #2794f0;
+      cursor: pointer;
+    }
+    .yanzheng_bj{
+      width: 85%;
+      height: 7rem;
+      margin: 0 auto;
+      background-image: url('../../../assets/images/ad/yanzheng/yanzhengBj.png');
+      background-size: 100% 100%;
+      position: absolute;
+      bottom: 0;
+
+    }
+    </style>
+  </head>
+  <body>
+    <div class="">
+      <!-- 公共头部 -->
+      <headerItem message="验证"></headerItem>
+      <!-- 内容 -->
+      <div class="code_wrap">
+        <ul>
+          <li>
+            <img style="width:0.3rem;margin-right:0.3rem;" src="../../../assets/images/ad/yanzheng/tel.png" alt="">
+            <input type="text" name="" value="" placeholder="输入手机号">
+          </li>
+          <li>
+            <img style="height:0.35rem;" src="../../../assets/images/ad/yanzheng/picture.png" alt="">
+            <input type="text" name="" value="" placeholder="图形验证码">
+            <img style="width:1.8rem;height:0.75rem;margin-left:0;" src="../../../assets/images/ad/yanzheng/yanzheng.png" alt="">
+          </li>
+          <li>
+            <img style="height:0.3rem;" src="../../../assets/images/ad/yanzheng/msg.png" alt="">
+            <input type="text" name="" value="" placeholder="短信验证码">
+            <p>获取验证码</p>
+          </li>
+          <li>
+            <img src="../../../assets/images/ad/yanzheng/user.png" alt="">
+            <input type="text" name="" value="" placeholder="填写业务员">
+          </li>
+        </ul>
+
+        <!-- 确定按钮 -->
+        <div class="sureBtn" @click="sureLogin()">确定</div>
+
+        <!-- 背景图 -->
+        <div class="yanzheng_bj">
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+  </body>
+</html>
