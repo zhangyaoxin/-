@@ -57,7 +57,7 @@
 <script>
 import headerItem from '../common/headItem'  //公共頭部
 import alertBomb from '../common/alertBomb'  //公共彈框
-import { Loading } from 'element-ui';
+// import { Loading } from 'element-ui';
  export default {
   components: {
     headerItem,
